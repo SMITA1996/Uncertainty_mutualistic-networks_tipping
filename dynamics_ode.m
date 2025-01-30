@@ -1,6 +1,6 @@
 clc
 clear all
-load file1.mat    %transformed matrix data
+load file1.mat    %data obtained after transformation on higher dimensional network
 %alpha1 = (-1+0.75)*rand(1,500) -0.75;%%%for simulation on uniform prior uncomment this line
 load uniform_post.mat %posterior sample
 %simulation for first 500 samples from the posterior distribution
